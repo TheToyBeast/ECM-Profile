@@ -1,0 +1,185 @@
+.cpp-profile {
+    max-width: 1000px;
+    margin: 40px auto 0;
+}
+.cpp_flex{
+	display: flex;
+	
+}
+.cpp_header {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cpp_header h2 {
+    display: inline-block;
+}
+img.user-flair-icon {
+    display: inline-block !important;
+}
+.cpp_name{
+	padding:20px;
+}
+.cpp_name p {
+    margin-top: -5px;
+    font-size: 14px;
+}
+.cpp-profile label {
+    font-size: 14px;
+	text-align: center;
+}
+.icon-item label{
+	width:100%;
+	height:80%;
+	cursor: pointer;
+	text-align: center;
+}
+.cpp-profile input[type="radio"] {
+    margin-top: 10px;
+}
+.icon-item:hover {
+    background: #f0f7fd;
+}
+._user_profile {
+    width: 70%;
+    padding-right: 20px;
+}
+._user_profile input[type="text"], ._user_profile textarea, ._user_profile input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px #e7e6e6 solid;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+._user_profile input[type="submit"], .cpp_acount-delete{
+	display: inline-block;
+    border-radius: 10px;
+    padding: 10px 15px;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: sans-serif;
+    background: #2c0032;
+    color: white;
+	margin-top:20px;
+}
+p._not-running {
+    font-size: 14px;
+}
+.icon-item {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 10px 5px;
+    font-size: 14px;
+    align-items: center;
+    border: 1px #ddd solid;
+    margin: 20px 5px 20px 0;
+    border-radius: 10px;
+}
+._cpp_icon-group, ._cpp_icon-group2 {
+    display: flex;
+	flex-wrap: wrap;
+}
+
+.icon-item img {
+    margin: 0 auto;
+}
+button.purchase-icon, #clear-purchases, .set-icon-flair, .purchase-ticket{
+	display: inline-block;
+    border-radius: 10px;
+    padding: 5px 20px;
+    outline: none;
+    border: none;
+    white-space: nowrap;
+    -webkit-user-select: none;
+    cursor: pointer;
+    font-size: 12px !important;
+    background: #0054b4;
+    color: white;
+}
+.purchased-icons {
+    position: relative;
+    padding-bottom: 40px;
+}
+button.set-icon-flair {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    right: 0;
+    width: 155px;
+    margin: 0 auto;
+    display: block;
+}
+.user_extras {
+    margin-top: -89px;
+}
+.user-profile-tabs ul.tabs {
+    list-style-type: none;
+    padding: 0;
+}
+
+.user-profile-tabs ul.tabs li {
+    display: inline-block;
+    padding: 10px;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.user-profile-tabs .tab-content {
+    display: none;
+    padding: 20px;
+    background: #eee;
+}
+
+.user-profile-tabs .current {
+    background: #fff;
+    display: block;
+}
+.comment {
+    background: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    line-height: 18px;
+}
+.childcomment {
+    background: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0 0 20px;
+	line-height: 18px;
+}
+.cp_post{
+	background: #f0f0f0;
+    padding: 10px;
+    font-size: 14px;
+    margin: 10px 0 0 0px;
+	line-height: 18px;
+}
+.cp_post h3{
+	font-size: 18px;
+	line-height: 20px;
+}
+
+@media only screen and (max-width: 749px) {
+	.cpp_flex{
+		display:block;
+	}
+	._user_profile{
+		width:100%
+	}
+	.user_extras{
+		margin-top:40px;
+	}
+		.user-profile-tabs ul.tabs li {
+    display: block;
+    margin: 0 0 2px 0;
+    text-align: center;
+}
+}
