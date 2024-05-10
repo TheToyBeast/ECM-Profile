@@ -1,4 +1,4 @@
-# ECM Custom Profile Page
+# ECM Custom Profile Page for WordPress
 
 This WordPress plugin, developed by Cristian Ibanez, enhances user profiles by adding custom profile pages. It integrates deeply with WordPress to allow users to manage their profiles with added custom fields.
 
