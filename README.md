@@ -14,7 +14,7 @@ This WordPress plugin, developed by Cristian Ibanez, enhances user profiles by a
 
 ### Admin Integration
 - Adds new scripts and styles to enhance the admin interface and user interaction.
-- Provides a backend option page under the ToyBeast UpVote plugin to manage dependencies.
+- Provides a backend option page under the ECM UpVote plugin to manage dependencies.
 
 ### Security
 - Implements nonce verification for secure form submissions to prevent CSRF attacks.
